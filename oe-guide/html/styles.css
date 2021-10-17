@@ -1,0 +1,146 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+#container {
+  width: 21%;
+  height: 85%;
+  position: absolute;
+  left: -500px;
+  margin-top: 60px;
+  background-color: rgba(0, 0, 0, 0.507);
+  border-radius: 5px;
+  display: none;
+  border: 2px solid #bb86fcbe;
+  box-shadow: 0 0 10px #bb86fc3f;
+  overflow: auto;
+}
+#container:hover {
+  cursor:default;
+}
+
+#img {
+  width: 135px;
+  height: 135px;
+  position: fixed;
+  top: -8px;
+  left: -495px;
+}
+
+h1 {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font: Arial, sans-serif;
+}
+
+
+li {
+  color: white;
+  font-size: 11px;
+  list-style: none;
+  letter-spacing: 1px;
+  margin-right: 25px;
+  margin-bottom: 21px;
+  font: Arial, sans-serif;
+}
+li:first-child{
+  margin-top: 35px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#mode {
+  width: 120px;
+  height: 30px;
+  border-radius: 3px;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 700;
+  opacity: 0.9;
+}
+#mode:hover {
+  opacity: 1;
+}
+
+.light-open {
+  color: rgb(34, 34, 34);
+  background-color: white;
+  display: block;
+}
+.dark-open {
+  color: white;
+  background-color: rgb(34, 34, 34);
+  display: none;
+}
+
+#mode i {
+  font-size: 18px;
+  margin: 5px;
+  color: black;
+}
+
+#bar {
+  width: 80%;
+  height: 40px;
+  margin-left: 45px;
+  margin-bottom: 40px;
+}
+.bar-content {
+  color: white;
+  float: left;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: bold;
+  opacity: 0.9;
+}
+.bar-content:hover {
+  opacity: 1;
+  cursor:pointer;
+}
+#content1 {
+  margin-left: 7vh;
+}
+#content2 {
+  margin-left: 2vh;
+}
+
+.selected {
+  border-bottom: 3px solid #bb86fcbe;
+}
+
+#resimler {
+  display: none;
+  margin: auto;
+}
+
+#resimler ul li {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+#resimler img {
+  width: 230px;
+  height: 130px;
+  margin-top:10px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.400);
+}
+
